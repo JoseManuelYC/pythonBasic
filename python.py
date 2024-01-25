@@ -25,3 +25,8 @@ print(f"El valor de mi entero es {my_int} Y el de mi bool es {my_bool}")
 #Listas
 
 my_list = [my_int, my_string, my_bool]
+
+#Diccionarios
+
+my_dict = {"string": my_string, "int": my_int, "float": my_float, "jose": "joseM"}
+print(my_dict["jose"]) #Imprime el valor de la clave
